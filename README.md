@@ -1,4 +1,4 @@
-# Introduction-About-TextVQA
+# Introduction-Of-TextVQA
 A brief introduction about textvqa
 ## Example
 ![image](https://github.com/JayZhu0104/Introduction-About-TextVQA/blob/master/img/example%20picture.png)
