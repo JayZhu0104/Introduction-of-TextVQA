@@ -3,13 +3,18 @@ A brief introduction about textvqa
 ## Datasets
 | Datasets | Features | Web | Paper |
 | ---  | ---  | ---  | ---  |
-| TextVQA| General picture; OCR identification information provided by dataset official; Textvqa challenge dataset | https://textvqa.org | https://arxiv.org/abs/1904.08920
-| ST-VQA | General picture; According to different tasks, the official provides different OCR identification |
-| OCR-VQA | Book cover picture;  |
+| TextVQA| General picture; OCR identification information provided by dataset official; Textvqa challenge dataset | https://textvqa.org | https://arxiv.org/abs/1904.08920 |
+| ST-VQA | General picture; According to different tasks, the official provides different OCR identification | https://rrc.cvc.uab.es/?ch=11&com=introduction | https://arxiv.org/abs/1905.13648 |
+| OCR-VQA | Book cover picture | https://ocr-vqa.github.io | https://anandmishra22.github.io/files/mishra-OCR-VQA.pdf |
 
 ## Models
-| Models | Features | Features | Paper |
+| Models | Features | Accuracy(TextVQA Test dataset) | Paper |
 | ---  | ---  | ---  | ---  |
-| Pythia| General picture; OCR identification information provided by dataset official; Textvqa challenge dataset | https://arxiv.org/abs/1904.08920 | 
-| M4C | General picture; According to different tasks, the official provides different OCR identification |
-| OCR-VQA | Book cover picture;  |
+| DiagNet| MFB&MFH + OCR | 18.77 | https://w-yi.github.io/projects/diagnet/report.pdf | 
+| LoRRA| Original model | 27.63 | https://arxiv.org/abs/1904.08920 | 
+| MM-GNN | Graph neural network | 32.46 | https://arxiv.org/abs/2003.13962 |
+| M4C | Transformer | 40.46 | https://arxiv.org/abs/1911.06258 |
+| SA-M4C | Transformer | 44.6 | https://arxiv.org/pdf/2007.12146.pdf |
+| SMA | Graph neural network | 45.51 | https://arxiv.org/abs/2006.00753 |
+
+* Recommended reading model: LoRRA; M4C; SA-M4C; SMA
